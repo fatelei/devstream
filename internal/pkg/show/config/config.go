@@ -24,6 +24,7 @@ var pluginDefaultConfigs = map[string]string{
 	"openldap":                       plugin.OpenldapDefaultConfig,
 	"trello-github-integ":            plugin.TrelloGithubDefaultConfig,
 	"trello":                         plugin.TrelloDefaultConfig,
+	"hashcorp_vault":                 plugin.HashCorpVaultDefaultConfig,
 }
 
 func Show() error {
